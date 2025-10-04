@@ -1,3 +1,8 @@
+# ==============
+# CODE BY OBETS SPTRA
+# Music Bot Telegram
+# ==============
+
 from pyrogram import Client, filters, idle
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 import yt_dlp
@@ -14,6 +19,7 @@ from pyrogram import idle
 API_ID = 24222790
 API_HASH = "7aaac582a1338b9054b09814d46c3520"
 BOT_TOKEN = "8415124423:AAGXO4masGwOXQitRazpNFmfiYWdI4EdgdI"
+
 
 app = Client("music_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 search_results = {}
